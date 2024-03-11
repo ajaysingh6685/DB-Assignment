@@ -1,7 +1,4 @@
 CREATE SCHEMA MySchema;
-
-
-
 CREATE TABLE  MySchema.product (
     id INT PRIMARY KEY,
     name VARCHAR,
@@ -13,7 +10,7 @@ CREATE TABLE  MySchema.product (
    discount_id INT
     created_at TIMESTAMP,
     modified_at TIMESTAMP,
-    deleted_at TIMESTAMP, 
+    deleted_at TIMESTAMP
 );
 CREATE TABLE  MySchema.product_category (
     id INT PRIMARY KEY,
